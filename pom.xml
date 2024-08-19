@@ -8,20 +8,27 @@
     <packaging>pom</packaging>
     <name>gamebox</name>
     <description>GameBox - Proyecto integrador de Microservicios, Redis y WebSockets</description>
-<!--    <url/>-->
-<!--    <licenses>-->
-<!--        <license/>-->
-<!--    </licenses>-->
-<!--    <developers>-->
-<!--        <developer/>-->
-<!--    </developers>-->
-<!--    <scm>-->
-<!--        <connection/>-->
-<!--        <developerConnection/>-->
-<!--        <tag/>-->
-<!--        <url/>-->
-<!--    </scm>-->
-
+    <url>https://github.com/RickyOrtega/gamebox</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>rickyortega</id>
+            <name>Ricky Rhonaldo Ortega Vital</name>
+            <url>https://www.linkedin.com/in/rickyrhonaldoortegavital/</url>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/RickyOrtega/gamebox.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:RickyOrtega/gamebox.git</developerConnection>
+        <url>https://github.com/RickyOrtega/gamebox</url>
+        <tag>HEAD</tag>
+    </scm>
     <modules>
         <module>config-server</module>
         <module>eureka-server</module>

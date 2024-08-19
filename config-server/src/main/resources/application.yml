@@ -1,8 +1,21 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
 spring:
-  application:
-    name: config-server
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/config
+        git:
+          uri: https://github.com/RickyOrtega/gamebox
+          clone-on-start: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
